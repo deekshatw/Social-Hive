@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "572684822061",
+    "project_id": "social-hive-72aa9",
+    "storage_bucket": "social-hive-72aa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572684822061:android:a145ddba57fc6f70b2faa4",
+        "android_client_info": {
+          "package_name": "com.example.socialhive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572684822061-k2rt06hpe0bn76u3em77kqqltsrni834.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialhive",
+            "certificate_hash": "c06eadf9d6c1dd9f786ed4e1bcd5923fcb261026"
+          }
+        },
+        {
+          "client_id": "572684822061-cidserihv9oa5v5ibeja3mko81kf1eam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-1jRpqJ6VXPuU92N3PW1J4hnzd_Nnsds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572684822061-cidserihv9oa5v5ibeja3mko81kf1eam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

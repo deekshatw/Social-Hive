@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Social Hive</string>
+    <string name="welcome">Welcome to Social Hive</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="re_enter_your_password">Re-enter your password</string>
+    <string name="create_account">Create Account</string>
+    <string name="or_login_using">or login using</string>
+    <string name="google">Google</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">Sign in</string>
+</resources>
