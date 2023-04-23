@@ -10,4 +10,6 @@
     <string name="google">Google</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="sign_in">Sign in</string>
+    <string name="add_a_post">Add a post</string>
+    <string name="explore">Explore</string>
 </resources>
