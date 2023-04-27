@@ -9,6 +9,7 @@ import com.example.socialhive.Model.PostModel
 import com.example.socialhive.databinding.ActivityHomeBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
+import java.util.logging.Formatter
 
 class HomeActivity : AppCompatActivity() {
 // again instantiate these vars
@@ -22,7 +23,6 @@ class HomeActivity : AppCompatActivity() {
     // create some vars for adapter
     private lateinit var adapter : PostAdapter
     private lateinit var postsList : ArrayList<PostModel>
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,7 +58,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         postsList = arrayListOf<PostModel>()
-        binding.recyclerViewPosts.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, true)
+        binding.recyclerViewPosts.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         binding.recyclerViewPosts.setHasFixedSize(true)
 
         fetchPostsData()
@@ -107,9 +107,8 @@ class HomeActivity : AppCompatActivity() {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
+                // nothing to do
             }
-
         })
     }
 }
